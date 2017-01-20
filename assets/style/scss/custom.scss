@@ -1,8 +1,8 @@
 /* RESET */
 body{
-	background: #4776E6;
+	/* background: #4776E6;
 	background: -webkit-linear-gradient(to left, #4776E6 , #8844EE); 
-	background: linear-gradient(to left, #4776E6 , #8844EE);        
+	background: linear-gradient(to left, #4776E6 , #8844EE); */        
 }
 header{
 	width: 100%;
@@ -14,7 +14,7 @@ header{
 	background-color: #fff;
 	border: 1px solid #fff;
 	border-radius: 20px;
-	color: #000;	
+	color: #000;
 }
 .btn:hover, .btn-large:hover{
 	background-color: #fff;
@@ -26,28 +26,40 @@ header{
 	margin-top: 250px;
 }
 .headline h1{
-	color: #fff;
-	font-weight: 700;
+	color: #6200ea;
+	font-weight: 300;
 	text-align: center;
 }
 .headline p{
-	color: #fff;	
+	color: #6200ea;	
 	font-size: 2rem;
 	line-height: 2.5rem;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 200;
 }
 
 /* ICONS */
 .icons i{
-	color: #fff;
+	color: #6200ea;
 }
 .icons i:hover{
-	color: #000;
+	color: #282828;
 
 }
 .icons{
 	margin-top: -30px;
 	font-size: 2rem;
 	text-align: center;        
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 490px){
+	.headline{
+		margin-top: 200px;
+	}
+}
+@media only screen and (max-width: 490px){
+	.headline{
+		margin-top: 200px;
+	}
 }
