@@ -1,4 +1,7 @@
 /* RESET */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 .centered-parent
 {
     position: relative;
@@ -17,30 +20,11 @@
          -o-transform: translate(-50%,-50%);
             transform: translate(-50%,-50%);
 }
-.btn,
-.btn-large
-{
-    line-height: 40px;
-
-    height: 40px;
-
-    color: #000;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    background-color: #fff;
-}
-.btn:hover,
-.btn-large:hover
-{
-    color: #000;
-    background-color: #fff;
-}
-
 /* HEADLINE */
 
 .headline h1
 {
-    font-weight: 300;
+    font-size: 2.5rem;
 
     text-align: center;
 
@@ -48,10 +32,9 @@
 }
 .headline p
 {
-    font-size: 2rem;
-    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 300;
     line-height: 2.5rem;
-
     text-align: center;
 
     color: #6200ea;
@@ -71,4 +54,17 @@
     font-size: 2rem;
 
     text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 655px) {
+    .headline h1
+    {
+        font-size: 4rem;
+    }
+    .headline p
+    {
+        font-size: 1.5rem;
+    }
 }
