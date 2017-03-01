@@ -1,12 +1,20 @@
 /* RESET */
-*{
+*
+{
     font-family: 'Montserrat', sans-serif;
+
+    margin: 0;
+    padding: 0;
 }
 .centered-parent
 {
     position: relative;
 
     height: 100vh;
+
+    background: #4776e6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4776e6 , #8e54e9); /* Chrome 10-25, Safari 5.1-6 */
+    background:         linear-gradient(to left, #4776e6 , #8e54e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .centered-child
 {
@@ -28,37 +36,45 @@
 
     text-align: center;
 
-    color: #6200ea;
+    color: #fff;
 }
 .headline p
 {
     font-size: 1rem;
     font-weight: 300;
     line-height: 2.5rem;
+
     text-align: center;
 
-    color: #6200ea;
+    color: #fff;
 }
 
 /* ICONS */
+.icons
+{
+    font-size: 2rem;
+
+    margin-top: 20px;
+
+    text-align: center;
+}
 .icons i
 {
-    color: #6200ea;
+    -webkit-transition: color .25s ease-in-out;
+       -moz-transition: color .25s ease-in-out;
+            transition: color .25s ease-in-out;
+
+    color: #fff;
 }
 .icons i:hover
 {
     color: #282828;
 }
-.icons
-{
-    font-size: 2rem;
-
-    text-align: center;
-}
 
 /* RESPONSIVE */
 
-@media only screen and (min-width: 655px) {
+@media only screen and (min-width: 655px)
+{
     .headline h1
     {
         font-size: 4rem;
