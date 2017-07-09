@@ -1,0 +1,33 @@
+/***********************************
+############## HEADER ##############
+***********************************/
+.wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+
+    height: 100vh;
+    background: #fff;
+}
+.wrap h1 { 
+    background: linear-gradient(330deg,#5b70fa 0%,#01d1ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased !important;
+}
+.wrap p { color: #333; }
+.description { width: 100%; }
+
+/* ICONS */
+.icons { font-size: 2rem; margin-top: 20px; display: block; }
+.icons a { margin-right: 20px;}
+
+/***********************************
+########## MEDIA QUERIES ###########
+***********************************/
+@media (min-width: 60em) {
+    .description { width: 50%; }
+}
